@@ -1,0 +1,6 @@
+COUNTRY = "AU"
+STATE = "Victoria"
+CITY = "Melbourne"
+ORGANISATION = "example org"
+DOMAIN = "example.com"
+ALTERNATENAME = "localhost"
