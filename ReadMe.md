@@ -45,8 +45,8 @@ it can be updated in certificateconfig.py
     COUNTRY = "AU"
     STATE = "Victoria"
     CITY = "Melbourne"
-    ORGANISATION = "Cumesh"
-    DOMAIN = "cumesh.au"
+    ORGANISATION = "example org"
+    DOMAIN = "example.com"
     ALTERNATENAME = "localhost"
 
 Generate public private key and Self signed certificate
@@ -74,4 +74,5 @@ Verify a Message
 py .\verify.py "publickey.pem" "Hello World"  "8d249566ee8419bc52b92e009afd672d1ec9e0e92b17cba2c2f3e66976348813395e691cb237b325f2a7aeeae839fb2b476bbb0b07459d1c59da4ed28b4c76a2d0444e34c355183a9afa275073ff00a625df2f49346faccdf340b11c62aedcb5262afb7e973d0cdfb17d577d6b4372d2e240362bf4c35c7af1f2003253747593138c7e82784d8b2561679e5f0f7d45a62fdbe7679719f0843c7c76b6cb5c3e7309b93ff58d89dcdd2b05102dfbf95a380c9fec84a65bbf5b1336c298a9ca008f938abc3f7cc5d8c32ea4321f70a2c7e785e5b9af69cc2cdca319a774d38daaaef091dc57d7fd40aa95cb113dc985c42689d876a11a26207fb6a4d282bec80aa3"
  
 Output:
+
      Signature is valid. Message is authentic.
